@@ -8,8 +8,6 @@ class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
 
-        val text = TextView(this)
-        text.text = "App berhasil jalan 🚀"
-        setContentView(text)
+        setContentView(R.layout.activity_main)
     }
 }
